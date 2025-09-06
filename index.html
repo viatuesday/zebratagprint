@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebra Printer Tag Code Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Zebra Printer Tag Code Manager</h1>
+            <p>Scan production number to view and print related tag codes</p>
+        </header>
+
+        <div class="input-section">
+            <div class="input-group">
+                <label for="productionNumber">Production Number:</label>
+                <input type="text" id="productionNumber" placeholder="Scan or enter production number" autofocus>
+                <button id="searchBtn" onclick="searchProductionNumber()">Search</button>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <h2>Serial Numbers for Production: <span id="currentProduction"></span></h2>
+            <div class="serial-list" id="serialList">
+                <!-- Serial numbers will be populated here -->
+            </div>
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>No serial numbers found for the entered production number.</p>
+        </div>
+
+        <div class="printer-status" id="printerStatus">
+            <p>Printer Status: <span id="statusText">Ready</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

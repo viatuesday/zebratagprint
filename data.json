@@ -1,0 +1,68 @@
+{
+  "productions": [
+    {
+      "productionNumber": "PROD001",
+      "description": "Widget Assembly Line 1",
+      "serialNumbers": [
+        {
+          "serialNumber": "SN001234",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDWidget Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD001^FS^FO50,130^ADN,18,10^FDSerial: SN001234^FS^FO50,160^ADN,18,10^FDDate: 2024-01-15^FS^XZ"
+        },
+        {
+          "serialNumber": "SN001235",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDWidget Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD001^FS^FO50,130^ADN,18,10^FDSerial: SN001235^FS^FO50,160^ADN,18,10^FDDate: 2024-01-15^FS^XZ"
+        },
+        {
+          "serialNumber": "SN001236",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDWidget Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD001^FS^FO50,130^ADN,18,10^FDSerial: SN001236^FS^FO50,160^ADN,18,10^FDDate: 2024-01-15^FS^XZ"
+        }
+      ]
+    },
+    {
+      "productionNumber": "PROD002",
+      "description": "Gadget Manufacturing Line 2",
+      "serialNumbers": [
+        {
+          "serialNumber": "SN002001",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDGadget Manufacturing^FS^FO50,100^ADN,18,10^FDProd: PROD002^FS^FO50,130^ADN,18,10^FDSerial: SN002001^FS^FO50,160^ADN,18,10^FDDate: 2024-01-16^FS^XZ"
+        },
+        {
+          "serialNumber": "SN002002",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDGadget Manufacturing^FS^FO50,100^ADN,18,10^FDProd: PROD002^FS^FO50,130^ADN,18,10^FDSerial: SN002002^FS^FO50,160^ADN,18,10^FDDate: 2024-01-16^FS^XZ"
+        }
+      ]
+    },
+    {
+      "productionNumber": "PROD003",
+      "description": "Component Assembly Line 3",
+      "serialNumbers": [
+        {
+          "serialNumber": "SN003001",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDComponent Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD003^FS^FO50,130^ADN,18,10^FDSerial: SN003001^FS^FO50,160^ADN,18,10^FDDate: 2024-01-17^FS^XZ"
+        },
+        {
+          "serialNumber": "SN003002",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDComponent Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD003^FS^FO50,130^ADN,18,10^FDSerial: SN003002^FS^FO50,160^ADN,18,10^FDDate: 2024-01-17^FS^XZ"
+        },
+        {
+          "serialNumber": "SN003003",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDComponent Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD003^FS^FO50,130^ADN,18,10^FDSerial: SN003003^FS^FO50,160^ADN,18,10^FDDate: 2024-01-17^FS^XZ"
+        },
+        {
+          "serialNumber": "SN003004",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDComponent Assembly^FS^FO50,100^ADN,18,10^FDProd: PROD003^FS^FO50,130^ADN,18,10^FDSerial: SN003004^FS^FO50,160^ADN,18,10^FDDate: 2024-01-17^FS^XZ"
+        }
+      ]
+    },
+    {
+      "productionNumber": "TEST001",
+      "description": "Test Production Line",
+      "serialNumbers": [
+        {
+          "serialNumber": "TEST001",
+          "tagCode": "^XA^FO50,50^ADN,36,20^FDTest Production^FS^FO50,100^ADN,18,10^FDProd: TEST001^FS^FO50,130^ADN,18,10^FDSerial: TEST001^FS^FO50,160^ADN,18,10^FDDate: 2024-01-18^FS^XZ"
+        }
+      ]
+    }
+  ]
+}
